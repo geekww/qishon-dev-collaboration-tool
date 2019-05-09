@@ -1,0 +1,25 @@
+.scroll_rest {
+    &::-webkit-scrollbar {
+      width: 0.5px;
+      background-color: #ffffff;
+    }
+  
+    &::-webkit-scrollbar-track {
+      border-left: 0.5px solid #dddddd;
+      background-color: #ffffff;
+      width: 0.5px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      display: inline-block;
+      width: 0.5px;
+      background: #c7cbd1;
+      border-radius: 0.5px;
+    }
+  
+    &::-webkit-scrollbar-button {
+      height: 0.5px;
+      text-align: center;
+      border-left: 0.5px solid #dddddd;
+    }
+  }

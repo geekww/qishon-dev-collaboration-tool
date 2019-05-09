@@ -1,0 +1,283 @@
+//// 默认按钮颜色
+//$colorGolden_import:$color-golden!important;
+//.el-button--primary{
+//    background-color: $colorGolden_import;
+//    border-color: $colorGolden_import;
+//}
+//// 按钮禁用
+//.button--disabled{
+//    background: $color-disabled!important;
+//    color: $text-white!important;
+//    border-color: $color-disabled!important;
+//}
+//
+//// loding组件颜色
+//.el-loading-spinner .path{
+//    stroke: $colorGolden_import;
+//}
+//
+//// 复选框颜色覆盖
+//.el-checkbox__input.is-checked .el-checkbox__inner{
+//    background-color: $colorGolden_import;
+//    border-color: $colorGolden_import;
+//}
+//.el-checkbox__inner:hover{
+//    border-color: $colorGolden_import;
+//}
+//
+//.el-checkbox__input.is-checked+.el-checkbox__label{
+//    color: $text-primary!important;
+//}
+//
+//// 单选框颜色覆盖
+//.el-radio__input.is-checked .el-radio__inner{
+//    background-color: $colorGolden_import;
+//    border-color: $colorGolden_import;
+//}
+//.el-radio__inner:hover{
+//    border-color: $colorGolden_import;
+//}
+//.el-radio__input.is-checked+.el-radio__label{
+//    color: $text-primary!important;
+//}
+//
+//// 分页样式重置
+//.pagination{
+//    .el-pagination{
+//        padding: 2px 0;
+//    }
+//    .el-pagination.is-background .btn-next.disabled, .el-pagination.is-background .btn-next:disabled, .el-pagination.is-background .btn-prev.disabled, .el-pagination.is-background .btn-prev:disabled, .el-pagination.is-background .el-pager li.disabled {
+//        color: $color-disabled;
+//    }
+//    .el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li{
+//        margin: 0;
+//        background-color: $color-white;
+//        font-size: $font-small;
+//        color: $text-primary;
+//        font-weight: normal;
+//        min-width: 30px;
+//        height: 30px;
+//        border-radius: 0;
+//        border: solid 1px $color-line;
+//    }
+//    .el-pagination.is-background .el-pager li:not(.disabled).active{
+//        background: $color-golden;
+//        color: $color-white !important;
+//        border-color: $color-golden;
+//    }
+//    .el-pagination.is-background .el-pager li:not(.disabled):hover{
+//        color: $color-golden;
+//    }
+//}
+//
+//// 弹框样式重置(解决无标题时，删除图标会被覆盖，点击范围变小问题)
+//.el-message-box{
+//    .el-message-box__header{
+//        .el-message-box__title{
+//            min-height:10px;
+//        }
+//    }
+//}
+//
+//// 商品详情页重置inputNumber
+//.goods-detail{
+//    .el-input-number--small{
+//        color: $text-secondary;
+//    }
+//    .el-input-number__decrease{
+//        //border-radius: 0;
+//        border-right: solid 1px $color-line;
+//    }
+//    .el-input-number__increase{
+//        //border-radius: 0;
+//        border-left: solid 1px $color-line;
+//    }
+//    .el-input.is-active .el-input__inner, .el-input__inner:focus{
+//        border-color: $color-golden;
+//    }
+//    .el-input-number__decrease:hover, .el-input-number__increase:hover{
+//        color: $text-regular;
+//    }
+//    .el-input-number__decrease:hover:not(.is-disabled)~.el-input .el-input__inner:not(.is-disabled), .el-input-number__increase:hover:not(.is-disabled)~.el-input .el-input__inner:not(.is-disabled){
+//        border-color: $color-line;
+//    }
+//}
+//
+////  百度分享弹窗样式优化
+//#bdshare_weixin_qrcode_dialog{
+//    box-sizing: content-box;
+//}
+//
+////  分享样式重置
+//.bdshare-slide-button-box{
+//    display: none !important;
+//    .bdshare-slide-button{
+//        display: none;
+//    }
+//}
+//
+//.thanksPage .half-row .el-input {
+//    width: 200px;
+//}
+//.thanksPage .full-row .el-textarea{
+//    width: 528px;
+//}
+//.thanksPage .full-row textarea{
+//    height: 100px;
+//}
+//.thanksPage .full-row input{
+//    width: 160px;
+//}
+//.thanksPage .full-row .el-select{
+//    margin-right: 24px;
+//}
+//
+//// 订单列表搜索框演示
+//.order{
+//    .el-input-group--append{
+//        .el-input__inner{
+//            border:2px solid $color-line !important;
+//        }
+//        .el-button--default{
+//            background-color: $color-line;
+//            border-radius: 0;
+//            color: $text-white;
+//        }
+//    }
+//    .warningMsb{
+//        background-color: #F5D1D5;
+//        color: $text-primary;
+//        font-size: $font-small;
+//    }
+//    .warningBody{
+//        font-size: $font-small;
+//        color: $text-primary;
+//        margin-top: 36px;
+//    }
+//    .condition{
+//        .el-collapse-item{
+//            div[role="tab"] {
+//                width: 100px;
+//                margin-left: 380px;
+//                .el-collapse-item__header{
+//                    border: none;
+//                }
+//            }
+//        }
+//    }
+//}
+//.customClass{
+//    position: relative;
+//    width: 500px !important;
+//    height: 344px !important;
+//    &::before{
+//        content: "6s后自动关闭";
+//        position: absolute;
+//        left: 20px;
+//        bottom: 20px;
+//        font-size: $font-smaller;
+//        color: $text-regular;
+//    }
+//}
+//.cancelButtonClass, .confirmButtonClass {
+//    width: 144px;
+//    height: 42px;
+//    font-size: $font-common !important;
+//    background-color: $bg-color-secondary !important;
+//    color: $text-primary !important;
+//    border: 1px solid $color-line !important;
+//}
+//.confirmButtonClass{
+//    color: $text-white !important;
+//    background-color: $color-golden !important;
+//}
+//.order-detail{
+//    .step{
+//        height: 80px;
+//        margin-top: 30px;
+//        .el-step{
+//            position: relative;
+//            .el-step__head{
+//                .el-step__icon{
+//                    color: $text-white;
+//                    border: 2px solid $color-disabled;
+//                    background-color: $color-disabled;
+//                }
+//                .is-text{
+//                    font-size: $font-regular;
+//                    width: 30px;
+//                    height: 30px;
+//                }
+//                .el-step__line{
+//                    top: 15px;
+//                }
+//                &.is-finish{
+//                    .el-step__icon{
+//                        border: 2px solid $text-hover;
+//                        background-color: $color-golden;
+//                    }
+//                    .el-step__line{
+//                        background-color: $color-golden;
+//                        border-color: $text-hover;
+//                    }
+//                }
+//                &.is-process{
+//                    .el-step__icon{
+//                        border: 2px solid $text-hover;
+//                        background-color: $color-golden;
+//                    }
+//                }
+//            }
+//            .el-step__main{
+//                width: 100%;
+//                position: absolute;
+//                top: -39px;
+//                .el-step__title{
+//                    font-size: $font-small;
+//                    color: $text-regular;
+//                    &.is-process{
+//                        color: $text-hover;
+//                    }
+//                }
+//                .el-step__description{
+//                    margin-top: 30px;
+//                    font-size: $font-smaller;
+//                    color: $text-regular;
+//                }
+//            }
+//        }
+//    }
+//}
+//// 选择器样式重置(使用页面：发票)
+//.invoice{
+//    .el-select .el-input.is-focus .el-input__inner{
+//        border-color: $color-golden;
+//    }
+//    .el-select .el-input__inner:focus{
+//        border-color: $color-golden;
+//    }
+//    .select-box .el-select-dropdown__item.selected{
+//        color: $color-golden;
+//    }
+//}
+//
+//.thanksPage .full-row input {
+//     width: 245px;
+//}
+//.letter-space .el-form-item__label{
+//    letter-spacing:11px;
+//    margin-right: -20px;
+//}
+//// .letter-space .el-form-item__label:after {
+////     content:'';
+////     margin-right: -20px;
+//// }
+//
+//// 支付页radio样式覆盖
+//.pay-item{
+//    .el-radio{
+//        .el-radio__input{
+//            margin-top: -44px!important;
+//        }
+//    }
+//}

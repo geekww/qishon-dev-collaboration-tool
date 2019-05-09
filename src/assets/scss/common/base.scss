@@ -1,0 +1,130 @@
+//  css初始化
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+body, button, input, select, textarea {
+  font: 12px/1.5;
+  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+address, cite, dfn, em, var {
+  font-style: normal;
+}
+
+code, kbd, pre, samp {
+  font-family: couriernew, courier, monospace;
+}
+
+small {
+  font-size: 12px;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+legend {
+  color: #000;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+::-webkit-input-placeholder{
+  color: $text-placeholder;
+}
+:-moz-placeholder{
+  color: $text-placeholder;
+}
+::-moz-placeholder{
+  color: $text-placeholder;
+}
+:-ms-input-placeholder{
+  color: $text-placeholder;
+}
+
+[v-cloak] {
+  display: none !important;
+}
+input::-webkit-search-cancel-button{
+  display: none;
+}
+input[type=search]::-ms-clear{
+  display: none;
+}
+
+h2 {
+  color: #1f2f3d;
+  font-size: 28px;
+  font-weight: 400;
+}
+h3 {
+  color: #1f2f3d;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+p {
+  color: #5e6d82;
+  font-size: 14px;
+  line-height: 50px;
+}
+pre code {
+  line-height: 1.8;
+  font-family: Menlo,Monaco,Consolas,Courier,monospace;
+  font-size: 14px;
+  padding: 18px 24px;
+  background-color: #fafafa;
+  border: 1px solid #eaeefb;
+  border-radius: 4px;
+  -webkit-font-smoothing: auto;
+  color: #000;
+  white-space: pre;
+  display: block;
+}

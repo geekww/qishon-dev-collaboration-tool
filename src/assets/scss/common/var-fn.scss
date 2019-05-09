@@ -1,0 +1,39 @@
+//  常用背景、底色色值-UI规范
+
+$color-red: #D63F4F; // 价格、错误提示、警示作用的文字颜色
+$color-golden: #409EFF; // 导航选中颜色、文字按钮、 按钮、部分底色
+$color-golden-hover: #D5BB94; // 导航选中颜色、文字按钮、 按钮、部分底色的hover状态
+$color-black: #2B2B2B; // 导航底色
+$color-line: #CCCCCC; // 分割线颜色
+$color-white: #FFFFFF; // 白色底色
+$color-disabled: #E5E5E5; // 不可点击颜色
+$color-dark: #000000; // 纯黑
+$bg-color-regular: #F5F5F5; // 部分底色
+$bg-color-secondary: #F5F3EF; // 部分内容底色
+$bg-color-disabled: #E6E6E6; // 不可点击状态背景色
+$bg-color-footer: #242424; // 底部组件背景色
+$bg-color-filter: #F8F8F8; // 过滤器背景色
+$color-thead: #F5F5F5; // 表头底色
+
+//  常用文字色值-UI规范
+
+$text-primary: #333333; // 用于大多数文字
+$text-regular: #666666; // 用于辅助性文字（主要）
+$text-secondary: #999999; // 用于辅助性文字（次级）
+$text-placeholder: #CCCCCC; // 用于弱提示文字（占位文字）
+$text-warn: #D63F4F; // 价格、错误提示、警示作用的文字颜色
+$text-blue: #3D78CC; // 可点击文字颜色
+$text-hover: #B59F7F; // 可点击操作hover颜色、选中后边框色
+$text-white: #FFFFFF; // 部分按钮白色文字、其他白色文字
+$text-footer-gray: #C4C4C4; //  底部字体颜色
+$text-tabs:#B69F7D; //  文字大小-UI规范
+
+$font-large: 36px;  // 优惠券列表
+$font-h1: 28px; // 主要用于首页标题等
+$font-h2: 24px; // 主要用于商品详情价格
+$font-22:22px;
+$font-title1: 20px; // 小标题
+$font-regular: 18px; // 用于大多数字体,粗体主要用于左侧导航栏标题
+$font-common: 16px; // 底部常用字体大小
+$font-small: 14px; // 用于大多数字体，粗体主要用于页面标题、关键字段等
+$font-smaller: 12px; // 辅助说明字体

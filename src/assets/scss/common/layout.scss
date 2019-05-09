@@ -1,0 +1,47 @@
+//  常规布局样式
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.min-height{
+    min-height: calc(100% - 200px);
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.position-fix{
+    position: fixed;
+}
+.position-absolute{
+    position: absolute;
+}
+.position-relative{
+    position: relative;
+}
+.pointer{
+    cursor: pointer;
+}
+
+
+// 表格布局 可参考shopping-cart（购物车）
+.com-table{
+    width: 100%;
+    border: 1px solid $color-line;
+    text-align: center;
+}
+.com-thead{
+    background: $color-thead;
+    line-height: 50px;
+    color: $text-secondary;
+    font-size: $font-small;
+    font-weight: normal;
+}
+
+// 弹框阴影
+.com-b-shadow{
+    box-shadow: 0 0 10px #dcdcdc;
+}

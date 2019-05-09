@@ -1,0 +1,53 @@
+//  按照UI规范配置字体大小和颜色
+
+// 字体大小
+.font-h1{
+    font-size: $font-h1;
+}
+.font-h2{
+    font-size: $font-h2;
+}
+.font-title1{
+    font-size: $font-title1;
+}
+.font-regular{
+    font-size: $font-regular;
+}
+.font-common {
+    font-size: $font-common;
+}
+.font-small{
+    font-size: $font-small;
+}
+.font-smaller{
+    font-size: $font-smaller;
+}
+
+// 字体颜色
+.text-primary{
+    color: $text-primary;
+}
+.text-regular{
+    color: $text-regular;
+}
+.text-secondary{
+    color: $text-secondary;
+}
+.text-placeholder{
+    color: $text-placeholder;
+}
+.text-warn{
+    color: $text-warn;
+}
+.text-blue{
+    color: $text-blue;
+}
+
+// 字重
+
+.font-normal{
+    font-weight: normal;
+}
+.font-bold{
+    font-weight: bold;
+}
